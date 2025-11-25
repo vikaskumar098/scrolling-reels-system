@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, rgb(40, 39, 39), rgb(11, 11, 11), black);
+  padding: 20px;
+}
+main section {
+  height: 100%;
+  width: 430px;
+  border-radius: 10px;
+  margin: auto;
+}
+main section .all-reels {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+main section .all-reels::-webkit-scrollbar {
+  display: none;
+}
+main section .all-reels .reel {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+main section .all-reels .reel video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .all-reels .reel .right {
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  right: 0;
+  bottom: 12%;
+}
+main section .all-reels .reel .right h4 {
+  cursor: pointer;
+}
+main section .all-reels .reel .right div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main section .all-reels .reel .right .love {
+  color: red;
+}
+main section .all-reels .reel .right i {
+  font-size: 25px;
+  font-weight: 500;
+}
+main section .all-reels .reel .right h6 {
+  font-size: 15px;
+  font-weight: 500;
+}
+main section .all-reels .reel .bottom {
+  padding: 30px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.611));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+main section .all-reels .reel .bottom h3 {
+  font-size: 500;
+  font-size: 20px;
+  color: white;
+}
+main section .all-reels .reel .bottom .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+main section .all-reels .reel .bottom .user h4 {
+  color: white;
+  font-family: 500;
+  font-size: 15px;
+}
+main section .all-reels .reel .bottom .user img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .all-reels .reel .bottom .user button {
+  background-color: transparent;
+  padding: 2px 4px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
