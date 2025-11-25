@@ -5,7 +5,7 @@ const reels = [
     isLiked: true,
     commentCount: 45,
     caption: "Enjoying the day 🌞",
-    video: "/videos/dance.mp4",
+    video: "./videos/dance.mp4",
     userProfile: "https://picsum.photos/200?random=1",
     shareCount: 12,
     isFollowed: true
@@ -16,7 +16,7 @@ const reels = [
     isLiked: false,
     commentCount: 33,
     caption: "Riding vibes 🎵",
-    video: "/videos/bike ride.mp4",
+    video: "./videos/bike ride.mp4",
     userProfile: "https://picsum.photos/200?random=2",
     shareCount: 8,
     isFollowed: false
@@ -27,7 +27,7 @@ const reels = [
     isLiked: true,
     commentCount: 102,
     caption: "Hacking mode 🤤",
-    video: "/videos/hvideo.mp4",
+    video: "./videos/hvideo.mp4",
     userProfile: "https://picsum.photos/200?random=3",
     shareCount: 21,
     isFollowed: true
@@ -38,7 +38,7 @@ const reels = [
     isLiked: false,
     commentCount: 19,
     caption: "Nature snow love 🌿✨",
-    video: "/videos/snow.mp4",
+    video: "./videos/snow.mp4",
     userProfile: "https://picsum.photos/200?random=4",
     shareCount: 15,
     isFollowed: true
@@ -49,7 +49,7 @@ const reels = [
     isLiked: false,
     commentCount: 9,
     caption: "Workout motivation 💪🔥",
-    video: "/videos/realman.mp4",
+    video: "./videos/realman.mp4",
     userProfile: "https://picsum.photos/200?random=5",
     shareCount: 3,
     isFollowed: false
@@ -60,7 +60,7 @@ const reels = [
     isLiked: true,
     commentCount: 88,
     caption: "Sunset shots 🌇😍",
-    video: "/videos/ballon.mp4",
+    video: "./videos/ballon.mp4",
     userProfile: "https://picsum.photos/200?random=6",
     shareCount: 30,
     isFollowed: true
@@ -71,7 +71,7 @@ const reels = [
     isLiked: false,
     commentCount: 14,
     caption: "Chill vibes 🎧",
-    video: "/videos/astro.mp4",
+    video: "./videos/astro.mp4",
     userProfile: "https://picsum.photos/200?random=7",
     shareCount: 6,
     isFollowed: false
@@ -82,7 +82,7 @@ const reels = [
     isLiked: true,
     commentCount: 52,
     caption: "Pet love 🐶❤️",
-    video: "/videos/aniaml.mp4",
+    video: "./videos/aniaml.mp4",
     userProfile: "https://picsum.photos/200?random=8",
     shareCount: 17,
     isFollowed: true
@@ -93,7 +93,7 @@ const reels = [
     isLiked: true,
     commentCount: 120,
     caption: "Nature loves ❤️",
-    video: "/videos/nature.mp4",
+    video: "./videos/nature.mp4",
     userProfile: "https://picsum.photos/200?random=9",
     shareCount: 41,
     isFollowed: true
@@ -104,7 +104,7 @@ const reels = [
     isLiked: false,
     commentCount: 6,
     caption: "New day 😊",
-    video: "/videos/man.mp4",
+    video: "./videos/man.mp4",
     userProfile: "https://picsum.photos/200?random=10",
     shareCount: 2,
     isFollowed: false
